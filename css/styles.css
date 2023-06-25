@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: auto;
+    height: 130vh;
+    background-color: #D9AFD9;
+    background-image: -webkit-linear-gradient(0deg, #ffffff 0%, #97D9E1 100%);
+    background-image: -moz-linear-gradient(0deg, #ffffff 0%, #97D9E1 100%);
+    background-image: -o-linear-gradient(0deg, #ffffff 0%, #97D9E1 100%);
+    background-image: linear-gradient(0deg, #ffffff 0%, #97D9E1 100%);
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+.title-col1{
+    color: green;
+}
+.title-col2{
+    color: orange;
+}
+.currency input{
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: #B993D6;
+}
+.inp-1,.inp-2{
+  padding-left: 40px;
+}
+.container{
+    display: grid;
+    place-items: center;
+}
+.desc{
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    font-weight:400;
+
+}
+.btn{
+    border-color: rgb(0, 0, 0);
+}
+.btn:hover{
+    border-color: #B993D6;
+}
+.tit-forall{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.swap-rate-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.rate{
+    font-size: 14px;
+    padding: 0 10px;
+
+}
+select:focus,input:focus,button:focus{
+    outline: 0;
+}
+@media(max-width:600px){
+    .currency input{
+        width: 200px;
+    }
+    .desc{
+        font-size: 24px;
+    }
+    .tit-forall{
+        font-size:30px;
+    }
+
+}
+.testimonial{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px;
+}
+.testimonial .image{
+    height: 150px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+section .container{
+    width:50%;
+}
+.testimonial .slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.slide p{
+    padding: 0 160px;
+    text-align:center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.slide .quote-icon{
+    font-size: 30px;
+    color: #4070f4;
+
+}
+.slide .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
