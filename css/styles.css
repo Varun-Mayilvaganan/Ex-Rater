@@ -91,6 +91,9 @@ select:focus,input:focus,button:focus{
         position: relative;
         padding-top: 50%;
     }
+    .tit-forall{
+        font-size:20px;
+    }
 }
 .testimonial{
     position: relative;
