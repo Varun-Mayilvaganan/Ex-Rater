@@ -72,6 +72,8 @@ body{
 select:focus,input:focus,button:focus{
     outline: 0;
 }
+
+/*Media Queries*/
 @media(max-width:600px){
     .currency input{
         width: 200px;
@@ -83,6 +85,12 @@ select:focus,input:focus,button:focus{
         font-size:30px;
     }
 
+}
+@media(max-width:590px){
+    .money-img{
+        position: relative;
+        padding-top: 50%;
+    }
 }
 .testimonial{
     position: relative;
@@ -107,7 +115,7 @@ section .container{
 
 }
 .slide p{
-    padding: 0 160px;
+    padding: 0 16px;
     text-align:center;
     font-size: 14px;
     font-weight: 400;
